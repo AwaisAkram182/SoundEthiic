@@ -1,0 +1,105 @@
+@import "tailwindcss";
+.fontstyle {
+    font-family: 'Big Shoulders';
+    src: url('/src/fonts/BigShoulders.ttf') format('truetype');
+   font-weight: bold;
+    text-transform: uppercase;
+  }
+ .herotxt{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+.nor{
+  font-family:'Times New Roman', Times, serif;
+}
+.mini-image{
+  padding: 0;
+}
+@media(min-width:850px) and (max-width:1023px){
+  .musiccontainor{
+    position: absolute;
+    left:1vw;
+  }
+  .muiscmainimg {
+    height:87vh;
+   width:87vw; 
+  }
+  .musicmini{
+    position: absolute;
+    height:60vw;
+    width:60vw;
+    left: 10vw;
+    
+  }
+  .musicdes{
+    position: relative;
+    right: 10px;
+  }
+ 
+}
+@media(min-width:950px) and (max-width:1023px){
+ .musicdes{
+  padding-top: 30px;
+  position: relative;
+  left: 1vw;
+ }
+ .musicmini{
+  position: absolute;
+  top:40px;
+ }
+ .musiccontainor{
+  position: absolute;
+  left: 6vw;
+}
+.fromlabs{
+  line-height: 18vh;
+ }
+ .castetxt{
+  font-size: 2vw;
+  width:60vw
+ }
+}
+@media(min-width:850px) and (max-width:950px){
+  .musiccontainor{
+    position: absolute;
+    left: 5vw;
+  }
+  .musicdes{
+    padding-top: 30px;
+    position: relative;
+    left: 1vw;
+   }
+   .mms{
+    margin-top: 10px;
+   }
+   .fromlabs{
+    line-height: 17vh;
+   }
+   .castetxt{
+    font-size: 2.2vw;
+    width:60vw
+   }
+   .secartisttxt{
+    width:50%;
+    
+   }
+}
+@media(min-width:769px) and (max-width:850px){
+  .musicdes{
+    padding-top: 30px;
+    position: relative;
+    left: 1vw;
+   }
+   .mms{
+    margin-top: 4px;
+   }
+   .txt1,.txt2{
+    font-size: medium;
+   }
+   .fromlabs{
+    line-height: 16vh;
+   }
+   .castetxt{
+    font-size: 2.3vw;
+    width:60vw
+   }
+}
